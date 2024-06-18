@@ -1,0 +1,27 @@
+{
+  "name": "image-vue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "naive-ui": "^2.38.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.5",
+    "jsdom": "^24.0.0",
+    "sass": "^1.77.6",
+    "vite": "^5.2.8",
+    "vite-plugin-vue-devtools": "^7.0.25",
+    "vitest": "^1.4.0"
+  }
+}
